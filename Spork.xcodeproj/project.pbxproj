@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A452C5B41D98DF6700B2BB25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A452C5B31D98DF6700B2BB25 /* AppDelegate.swift */; };
+		A452C5B61D98DF6700B2BB25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A452C5B51D98DF6700B2BB25 /* ViewController.swift */; };
+		A452C5B91D98DF6700B2BB25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A452C5B71D98DF6700B2BB25 /* Main.storyboard */; };
+		A452C5BB1D98DF6700B2BB25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A452C5BA1D98DF6700B2BB25 /* Assets.xcassets */; };
+		A452C5BE1D98DF6700B2BB25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A452C5BC1D98DF6700B2BB25 /* LaunchScreen.storyboard */; };
+		A452C5C91D98DF6700B2BB25 /* SporkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A452C5C81D98DF6700B2BB25 /* SporkTests.swift */; };
+		A452C5D41D98DF6800B2BB25 /* SporkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A452C5D31D98DF6800B2BB25 /* SporkUITests.swift */; };
+		A452C5E21D996A4E00B2BB25 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A452C5E11D996A4E00B2BB25 /* HomeModel.swift */; };
+		A452C5E41D996A6100B2BB25 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A452C5E31D996A6100B2BB25 /* UserModel.swift */; };
+		A453DBF01D9B7B9E002E6D91 /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A453DBEF1D9B7B9E002E6D91 /* RecipeModel.swift */; };
+		A453DBF21D9B9465002E6D91 /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A453DBF11D9B9465002E6D91 /* RecipeView.swift */; };
+		A49B4D1E1D9ADA2D00697FC8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49B4D1D1D9ADA2D00697FC8 /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A452C5C51D98DF6700B2BB25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A452C5A81D98DF6700B2BB25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A452C5AF1D98DF6700B2BB25;
+			remoteInfo = Spork;
+		};
+		A452C5D01D98DF6800B2BB25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A452C5A81D98DF6700B2BB25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A452C5AF1D98DF6700B2BB25;
+			remoteInfo = Spork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A452C5B01D98DF6700B2BB25 /* Spork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A452C5B31D98DF6700B2BB25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A452C5B51D98DF6700B2BB25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A452C5B81D98DF6700B2BB25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A452C5BA1D98DF6700B2BB25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A452C5BD1D98DF6700B2BB25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A452C5BF1D98DF6700B2BB25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A452C5C41D98DF6700B2BB25 /* SporkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SporkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A452C5C81D98DF6700B2BB25 /* SporkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SporkTests.swift; sourceTree = "<group>"; };
+		A452C5CA1D98DF6700B2BB25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A452C5CF1D98DF6800B2BB25 /* SporkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SporkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A452C5D31D98DF6800B2BB25 /* SporkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SporkUITests.swift; sourceTree = "<group>"; };
+		A452C5D51D98DF6800B2BB25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A452C5E11D996A4E00B2BB25 /* HomeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		A452C5E31D996A6100B2BB25 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		A453DBEF1D9B7B9E002E6D91 /* RecipeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecipeModel.swift; path = ../RecipeModel.swift; sourceTree = "<group>"; };
+		A453DBF11D9B9465002E6D91 /* RecipeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
+		A49B4D1D1D9ADA2D00697FC8 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A452C5AD1D98DF6700B2BB25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A452C5C11D98DF6700B2BB25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A452C5CC1D98DF6800B2BB25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A452C5A71D98DF6700B2BB25 = {
+			isa = PBXGroup;
+			children = (
+				A452C5B21D98DF6700B2BB25 /* Spork */,
+				A452C5C71D98DF6700B2BB25 /* SporkTests */,
+				A452C5D21D98DF6800B2BB25 /* SporkUITests */,
+				A452C5B11D98DF6700B2BB25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A452C5B11D98DF6700B2BB25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A452C5B01D98DF6700B2BB25 /* Spork.app */,
+				A452C5C41D98DF6700B2BB25 /* SporkTests.xctest */,
+				A452C5CF1D98DF6800B2BB25 /* SporkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A452C5B21D98DF6700B2BB25 /* Spork */ = {
+			isa = PBXGroup;
+			children = (
+				A452C5B31D98DF6700B2BB25 /* AppDelegate.swift */,
+				A452C5B51D98DF6700B2BB25 /* ViewController.swift */,
+				A452C5B71D98DF6700B2BB25 /* Main.storyboard */,
+				A452C5BA1D98DF6700B2BB25 /* Assets.xcassets */,
+				A452C5BC1D98DF6700B2BB25 /* LaunchScreen.storyboard */,
+				A452C5BF1D98DF6700B2BB25 /* Info.plist */,
+				A452C5E11D996A4E00B2BB25 /* HomeModel.swift */,
+				A453DBEF1D9B7B9E002E6D91 /* RecipeModel.swift */,
+				A452C5E31D996A6100B2BB25 /* UserModel.swift */,
+				A49B4D1D1D9ADA2D00697FC8 /* DetailViewController.swift */,
+				A453DBF11D9B9465002E6D91 /* RecipeView.swift */,
+			);
+			path = Spork;
+			sourceTree = "<group>";
+		};
+		A452C5C71D98DF6700B2BB25 /* SporkTests */ = {
+			isa = PBXGroup;
+			children = (
+				A452C5C81D98DF6700B2BB25 /* SporkTests.swift */,
+				A452C5CA1D98DF6700B2BB25 /* Info.plist */,
+			);
+			path = SporkTests;
+			sourceTree = "<group>";
+		};
+		A452C5D21D98DF6800B2BB25 /* SporkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A452C5D31D98DF6800B2BB25 /* SporkUITests.swift */,
+				A452C5D51D98DF6800B2BB25 /* Info.plist */,
+			);
+			path = SporkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A452C5AF1D98DF6700B2BB25 /* Spork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A452C5D81D98DF6800B2BB25 /* Build configuration list for PBXNativeTarget "Spork" */;
+			buildPhases = (
+				A452C5AC1D98DF6700B2BB25 /* Sources */,
+				A452C5AD1D98DF6700B2BB25 /* Frameworks */,
+				A452C5AE1D98DF6700B2BB25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spork;
+			productName = Spork;
+			productReference = A452C5B01D98DF6700B2BB25 /* Spork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A452C5C31D98DF6700B2BB25 /* SporkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A452C5DB1D98DF6800B2BB25 /* Build configuration list for PBXNativeTarget "SporkTests" */;
+			buildPhases = (
+				A452C5C01D98DF6700B2BB25 /* Sources */,
+				A452C5C11D98DF6700B2BB25 /* Frameworks */,
+				A452C5C21D98DF6700B2BB25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A452C5C61D98DF6700B2BB25 /* PBXTargetDependency */,
+			);
+			name = SporkTests;
+			productName = SporkTests;
+			productReference = A452C5C41D98DF6700B2BB25 /* SporkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A452C5CE1D98DF6800B2BB25 /* SporkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A452C5DE1D98DF6800B2BB25 /* Build configuration list for PBXNativeTarget "SporkUITests" */;
+			buildPhases = (
+				A452C5CB1D98DF6800B2BB25 /* Sources */,
+				A452C5CC1D98DF6800B2BB25 /* Frameworks */,
+				A452C5CD1D98DF6800B2BB25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A452C5D11D98DF6800B2BB25 /* PBXTargetDependency */,
+			);
+			name = SporkUITests;
+			productName = SporkUITests;
+			productReference = A452C5CF1D98DF6800B2BB25 /* SporkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A452C5A81D98DF6700B2BB25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Adrian Ordorica";
+				TargetAttributes = {
+					A452C5AF1D98DF6700B2BB25 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 6RTKLPC64B;
+						ProvisioningStyle = Automatic;
+					};
+					A452C5C31D98DF6700B2BB25 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 6RTKLPC64B;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A452C5AF1D98DF6700B2BB25;
+					};
+					A452C5CE1D98DF6800B2BB25 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 6RTKLPC64B;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A452C5AF1D98DF6700B2BB25;
+					};
+				};
+			};
+			buildConfigurationList = A452C5AB1D98DF6700B2BB25 /* Build configuration list for PBXProject "Spork" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A452C5A71D98DF6700B2BB25;
+			productRefGroup = A452C5B11D98DF6700B2BB25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A452C5AF1D98DF6700B2BB25 /* Spork */,
+				A452C5C31D98DF6700B2BB25 /* SporkTests */,
+				A452C5CE1D98DF6800B2BB25 /* SporkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A452C5AE1D98DF6700B2BB25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A452C5BE1D98DF6700B2BB25 /* LaunchScreen.storyboard in Resources */,
+				A452C5BB1D98DF6700B2BB25 /* Assets.xcassets in Resources */,
+				A452C5B91D98DF6700B2BB25 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A452C5C21D98DF6700B2BB25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A452C5CD1D98DF6800B2BB25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A452C5AC1D98DF6700B2BB25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A452C5B61D98DF6700B2BB25 /* ViewController.swift in Sources */,
+				A452C5B41D98DF6700B2BB25 /* AppDelegate.swift in Sources */,
+				A49B4D1E1D9ADA2D00697FC8 /* DetailViewController.swift in Sources */,
+				A453DBF21D9B9465002E6D91 /* RecipeView.swift in Sources */,
+				A452C5E41D996A6100B2BB25 /* UserModel.swift in Sources */,
+				A452C5E21D996A4E00B2BB25 /* HomeModel.swift in Sources */,
+				A453DBF01D9B7B9E002E6D91 /* RecipeModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A452C5C01D98DF6700B2BB25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A452C5C91D98DF6700B2BB25 /* SporkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A452C5CB1D98DF6800B2BB25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A452C5D41D98DF6800B2BB25 /* SporkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A452C5C61D98DF6700B2BB25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A452C5AF1D98DF6700B2BB25 /* Spork */;
+			targetProxy = A452C5C51D98DF6700B2BB25 /* PBXContainerItemProxy */;
+		};
+		A452C5D11D98DF6800B2BB25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A452C5AF1D98DF6700B2BB25 /* Spork */;
+			targetProxy = A452C5D01D98DF6800B2BB25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A452C5B71D98DF6700B2BB25 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A452C5B81D98DF6700B2BB25 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A452C5BC1D98DF6700B2BB25 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A452C5BD1D98DF6700B2BB25 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A452C5D61D98DF6800B2BB25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A452C5D71D98DF6800B2BB25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A452C5D91D98DF6800B2BB25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6RTKLPC64B;
+				INFOPLIST_FILE = Spork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Chet.Spork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A452C5DA1D98DF6800B2BB25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6RTKLPC64B;
+				INFOPLIST_FILE = Spork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Chet.Spork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A452C5DC1D98DF6800B2BB25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6RTKLPC64B;
+				INFOPLIST_FILE = SporkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Chet.SporkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spork.app/Spork";
+			};
+			name = Debug;
+		};
+		A452C5DD1D98DF6800B2BB25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6RTKLPC64B;
+				INFOPLIST_FILE = SporkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Chet.SporkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spork.app/Spork";
+			};
+			name = Release;
+		};
+		A452C5DF1D98DF6800B2BB25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6RTKLPC64B;
+				INFOPLIST_FILE = SporkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Chet.SporkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Spork;
+			};
+			name = Debug;
+		};
+		A452C5E01D98DF6800B2BB25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6RTKLPC64B;
+				INFOPLIST_FILE = SporkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Chet.SporkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Spork;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A452C5AB1D98DF6700B2BB25 /* Build configuration list for PBXProject "Spork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A452C5D61D98DF6800B2BB25 /* Debug */,
+				A452C5D71D98DF6800B2BB25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A452C5D81D98DF6800B2BB25 /* Build configuration list for PBXNativeTarget "Spork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A452C5D91D98DF6800B2BB25 /* Debug */,
+				A452C5DA1D98DF6800B2BB25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A452C5DB1D98DF6800B2BB25 /* Build configuration list for PBXNativeTarget "SporkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A452C5DC1D98DF6800B2BB25 /* Debug */,
+				A452C5DD1D98DF6800B2BB25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A452C5DE1D98DF6800B2BB25 /* Build configuration list for PBXNativeTarget "SporkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A452C5DF1D98DF6800B2BB25 /* Debug */,
+				A452C5E01D98DF6800B2BB25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A452C5A81D98DF6700B2BB25 /* Project object */;
+}
